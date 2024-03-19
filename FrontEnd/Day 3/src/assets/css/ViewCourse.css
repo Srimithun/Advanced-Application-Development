@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.vc-body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background: transparent;
+   backdrop-filter: blur(10px);
+    font-family: "Nunito", sans-serif;
+}
+
+.vc-container{
+    position: relative;
+    background: linear-gradient(to right,#5c48ee,#0f1e6a);
+    /* background: ; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 900px;
+    height: 600px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px 10px;
+
+}
+
+.vc-imgBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+}
+/* .vc-imgBox::before{
+    content: 'Beginner';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #000;
+    opacity: 0.3;
+    font-size: 5em;
+
+} */
+
+.vc-imgBox img{
+    position: relative;
+    width: 400px;
+    /* left: 200px; */
+
+}
+
+.vc-details{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.vc-details i{
+    position: absolute;
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+    top: 20px;
+    left: 90%;
+}
+
+.vc-details h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    line-height: 0.8em;
+    color: #fff;
+
+}
+.vc-details span{
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f6f6f6;
+}
+
+.vc-details p{
+    max-width: 85%;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.vc-details h3{
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: #fff;
+    float: left;
+}
+
+.vc-details button{
+    background: black;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    padding: 15px 20px;
+    margin-top: -150px;
+    margin-left: 20px;  
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600p;
+    border-radius: 20px;
+}
+
+.vc-details button:hover{
+    background: #1d1d1d;
+    cursor: pointer;
+}
