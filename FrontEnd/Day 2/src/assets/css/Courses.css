@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+     
+}
+
+.courses-container{
+    padding: 15px;
+    padding-bottom: 100px;
+    z-index: -1;
+    animation: fade 0.5s ease-in-out;
+}
+
+.courses-container.hide-container{
+    content-visibility: hidden;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.courses-heading{
+    text-align: center;
+    padding-bottom: 15px;
+    background:  linear-gradient(to right,#5c48ee,#0f1e6a);
+    --webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    font-size: 50px;
+
+}
+.courses-container .courses-box_container{
+    display: grid;
+    /* height: 500px; */
+    
+
+    grid-template-columns: repeat(auto-fit,minmax(270px, 1fr));
+    gap: 15px;
+
+}
+
+.courses-container .courses-box_container .courses-box{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+.courses-container .courses-box_container .courses-box img{
+    height: 300px;
+    width: 250px;
+}
+.courses-container .courses-box_container .courses-box h3{
+    color: #444;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.courses-container .courses-box_container .courses-box p{
+    color: #444;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.courses-container .courses-box_container .courses-box h3{
+    color: #777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+.courses-container .courses-box_container .courses-box .courses-btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+.courses-container .courses-box_container .courses-box .courses-btn:hover{
+    letter-spacing: 1px;
+}
+
+.courses-container .courses-box_container .courses-box:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+}
+
+@media(max-width:768px)
+{
+    .courses-container{
+        padding: 20px;
+    }
+}
+

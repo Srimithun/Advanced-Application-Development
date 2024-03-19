@@ -1,0 +1,72 @@
+:root{
+
+
+
+    /* Special Colors */
+    --primary : #001140;
+    --secondary : #436ef3;
+    --mainColor: #64bcf4;
+    --main-color: #1976D2;
+    --hoverColor: #5bacdf;
+    --backgroundColor: #ffffff;
+    --darkOne: #312f3a;
+    --darkTwo: #45424b;
+    --dark-grey: #AAAAAA;
+    --dark: #000000;
+    --dark2: #363949;
+    --warning: #Fbc02d;
+    --success: #388e3c;
+    --danger: #D32f2f;
+    --text-color: #121212;
+    --grey: #eee;
+    --max-width: 1600px;
+   
+   
+
+    /* Light Colors */
+    --light-mainColor: #CFE8FF;
+    --light: #f6f6f9;
+    --light-danger: #FEC0D3;
+    --light-success: #BBF7D0;
+    --light-warning: #FFF2c6;
+    --lightOne: #919191;
+    --lightTwo: #aaa;
+
+    --basic-color : #ff8c6b;
+    --light-basic-color : #ffe0d2;
+    --light-mainColor : #7EC8E3;
+    --danger: #D32f2f;
+    --light-danger: #FEC0D3;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--mainColor);
+    color: #fff;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
