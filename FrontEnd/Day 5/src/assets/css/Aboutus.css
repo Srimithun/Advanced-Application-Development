@@ -1,0 +1,19 @@
+.aboutus-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, #5c48ee, #0f1e6a);
+    color: #fff; /* Set text color to white */
+}
+
+.aboutus-heading {
+    text-align: center;
+}
+
+.aboutus-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}

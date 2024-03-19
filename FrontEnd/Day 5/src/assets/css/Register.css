@@ -1,0 +1,45 @@
+.register-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, #5c48ee, #0f1e6a);
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+label {
+    color: #fff;
+    font-weight: bold;
+}
+
+.register-input,
+.register-input-select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.register-input-btn{
+    background-color: #45a049;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.register-input-btn:hover {
+    background-color: #45a049;
+    color: white;
+}
